@@ -5,7 +5,7 @@ public class CalculateTicket {
     private int age;
     private int basePrice;
 
-    // Parametrized constructor
+    // Parameterized constructor
     public CalculateTicket(int age, int basePrice) {
         this.age = age;
         this.basePrice = basePrice;
