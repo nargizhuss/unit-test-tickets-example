@@ -39,7 +39,7 @@ public class UnitTest {
     }
 
     @Test
-    public void calculateTicket_calculate_senior_seniorPrice(){
+    public void calculateTicket_calculate_senior_seniorDiscountPrice(){
 
         CalculateTicket passenger = new CalculateTicket(66, 1000);
         double result = passenger.calculate();
