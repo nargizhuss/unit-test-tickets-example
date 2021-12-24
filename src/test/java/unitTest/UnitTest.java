@@ -21,6 +21,17 @@ public class UnitTest {
 
     }
 
+    @Test
+    public void calculateTicket_calculate_child_halfPrice(){
+
+        CalculateTicket passenger = new CalculateTicket(10, 1000);
+        double result = passenger.calculate();
+        Assert.assertEquals(result, 500);
+
+    }
+
+    
+
 
 
 
