@@ -38,7 +38,13 @@ public class UnitTest {
         Assert.assertEquals(result, 1000);
     }
 
-    
+    @Test
+    public void calculateTicket_calculate_senior_seniorPrice(){
+
+        CalculateTicket passenger = new CalculateTicket(66, 1000);
+        double result = passenger.calculate();
+        Assert.assertEquals(result, 800);
+    }
 
 
 
