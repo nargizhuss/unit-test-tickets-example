@@ -30,7 +30,18 @@ public class UnitTest {
 
     }
 
+    @Test
+    public void calculateTicket_calculate_adult_fullPrice(){
+
+        CalculateTicket passenger = new CalculateTicket(35, 1000);
+        double result = passenger.calculate();
+        Assert.assertEquals(result, 1000);
+    }
+
     
+
+
+
 
 
 
